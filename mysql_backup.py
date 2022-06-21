@@ -12,7 +12,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
 logger.add("/var/log/logger/script_backup.log", format="{time} - {level} - {message}")
 
 
